@@ -120,4 +120,6 @@ class SparseMatrix:
             f.write("\n")
         f.close()
 
+        result = SparseMatrix(file=f)
+
         return result ##выводит np.array
